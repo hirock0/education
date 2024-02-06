@@ -1,0 +1,14 @@
+#main{
+    
+
+    color: white;
+    background: url(https://cdn.pixabay.com/photo/2022/07/20/18/44/reading-7334749_1280.png);
+    background-position: center;
+    background-size: cover;
+}
+#main input{
+    color: black;
+}
+#main select{
+    color: black;
+}

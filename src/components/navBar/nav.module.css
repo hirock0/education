@@ -1,0 +1,76 @@
+
+#nav{
+    border: none;
+    border-bottom: solid 1px white;
+}
+#navMiddle{
+    width: 80%;
+    height: 100%;
+   
+ 
+}
+
+#navUl{
+    text-wrap: nowrap;
+
+}
+#navUl li:hover{
+
+}
+
+
+@media (max-width:600px) {
+    #nav{
+        height: 70px;
+        padding: 0px 10px;
+
+    }
+    #menu_line{
+        height: 20px;
+    }
+
+    #navUl{
+        display: none;
+    
+    }
+    #loginbtn{
+        font-size: 12px;
+    }
+
+}
+@media (min-width:600px) {
+    #navUl{
+        font-size: 15px;
+        gap: 16px;
+        justify-content: center;
+    
+    }
+
+}
+@media (min-width:768px) {
+    #navUl{
+        font-size: 15px;
+        gap: 16px;
+        justify-content: space-around;
+    
+    }
+
+}
+@media (min-width:991px) {
+    #navUl{
+        font-size: 17px;
+        gap: 16px;
+        justify-content: space-around;
+    
+    }
+
+}
+@media (min-width:1250px) {
+    #navUl{
+        font-size: 19px;
+        gap: 16px;
+        justify-content: space-around;
+    
+    }
+
+}

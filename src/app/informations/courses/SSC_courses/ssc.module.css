@@ -1,0 +1,7 @@
+#main{
+    color: black;
+}
+#benefitsUl li{
+    padding: 5px;
+    @apply max-sm:text-sm p-0
+}

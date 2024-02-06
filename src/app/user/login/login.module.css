@@ -1,0 +1,51 @@
+#main{
+    color: white;
+    background: url(https://cdn.pixabay.com/photo/2022/07/20/18/44/reading-7334749_1280.png);
+    background-position: center;
+    background-size: cover;
+    @apply lg:text-xl md:text-base
+
+}
+
+#form_outer_div{
+    @apply sm:p-10 lg:pt-28 lg:pb-28
+}
+#main input{
+    height: 50px;
+    color: black;
+    @apply p-2 rounded-sm md:h-14 lg:w-60
+}
+#loginForm{
+    box-shadow: 0 0 5px white;
+    @apply md:p-10 
+}
+
+@media (max-width:600px) {
+
+    #form_outer_div{
+        padding: 20px;
+        font-size: 14px;
+    }
+    #loginForm{
+        padding: 20px;
+        font-size: 14px;
+    }
+    #main input{
+        height: 40px;
+    }
+    #heading_text{
+        font-size: 14px;
+    }
+}
+@media (min-width:600px) {
+    #form_outer_div{
+      
+    }
+    #loginForm{
+        
+    }
+    #main input{
+        
+    }
+}
+

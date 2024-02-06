@@ -1,0 +1,10 @@
+@media (max-width:600px) {
+    #resultInfo{
+        @apply w-full
+    }
+}
+@media (min-width:650px) {
+    #resultInfo{
+        width: 500px;
+    }
+}

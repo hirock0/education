@@ -2,26 +2,83 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    width: 100%;
+    color: white;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+
+#home_page{
+    background: url(https://cdn.pixabay.com/photo/2022/07/20/18/44/reading-7334749_1280.png);
+    background-position: center;
+    background-size: cover;
+}
+#Side_menu_list{
+    position: fixed;
+    top: 96px;
+    left: 0;
+    transform: translateX(-250px);
+    transition: all .5s;
+    z-index: 100;
+}
+#btmLine{
+    height: 1px;
+}
+@media (max-width:600px) {
+    #navHoverDiv{
+        display: none;
+    }
+
+    #Right_nav_List{
+        transform: translateX(150px);
+        transition: all .5s;
+    }
+    #rightNavArrow{
+        top: 71px;
+    }
+    #Side_menu_list{
+        top: 70px;
+
+    }
+
+}
+@media (min-width:600px) {
+    #Right_nav_List{
+        display: none;
+    }
+    #rightNavArrow{
+        display: none;
+    }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+
+
+#ladyImageDiv{
+
+    background-position: center;
+    background-size: cover;
+
 }
+#ladyPic{
+    
+}
+#awardDiv{
+    box-shadow: 0 0 10px white;
+
+}
+#awardDiskUl{
+    @apply max-sm:text-xs
+}
+#awardDiskUl li:hover{
+    @apply font-normal
+}
+#image_div{
+    overflow: hidden;
+}
+

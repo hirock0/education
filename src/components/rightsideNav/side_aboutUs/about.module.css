@@ -1,0 +1,25 @@
+
+
+.main{
+    @apply hidden max-sm:w-48 sm:w-52 md:w-60 lg:w-64 text-nowrap
+}
+#aboutusUL{
+    border-radius: 4px;
+}
+.main li{
+     border: solid 1px ; 
+        padding: 5px;
+        cursor: pointer;
+        user-select: none;
+        border-radius: 4px;
+
+        @apply max-sm:text-xs sm:text-sm md:text-base flex gap-3 items-center max-sm:w-36
+
+}
+
+.main li:hover{
+    background-color: rgb(67, 68, 70);
+}
+.main li:active{
+    background-color: rgb(47, 54, 61);
+}
